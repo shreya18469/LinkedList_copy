@@ -10,7 +10,7 @@ class Node{
   Node(Student* newStu);
   ~Node();
   void setStudent(Student* newStu); //set node to student
-  char* getStudent();//return student found in node
+  Student* getStudent();//return student found in node
   void setNext(Node* newnext);//set next node
   Node* getNext();//return next node
  private:
