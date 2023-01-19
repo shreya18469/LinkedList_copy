@@ -17,7 +17,7 @@ void Node::setStudent(Student* newStu) {
   value = newStu;
 }
 
-char* Node::getStudent() {
+Student* Node::getStudent() {
   return value();
 }
 
